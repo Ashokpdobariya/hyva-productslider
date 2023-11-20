@@ -52,9 +52,14 @@ The full paths that need to be migrated are:
 3. ```HYVA THEMES->Theme Fallback->General Settings->The list of URL's parts```
    
    The configuration path is `hyva_theme_fallback/general/list_part_of_url`
-4. ```Backend configureation```
+4. ```Slider Configuration```
    
    The configuration path is `store/consfiguration/zealousecommerce/homepge`
+   <br>
+   Enable Slider to `Yes`
+   <br>
+   Add Title that you want to set
+   <br>
    set the sku  in product-sku tab just like `24-MB01,24-MB02,24-MB04`
 ## How does it work?
 
