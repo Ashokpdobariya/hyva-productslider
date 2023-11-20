@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+* samumaretya / productSlider
+* samumaretiya@gmail.com
+* skype : samumaretiya
+ * Copyright © Zealous Commerce. All rights reserved.
+ * This product is licensed per Magento install
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="hyva_product_slider" />
+    <body>
+        <referenceContainer name="content">
+            <block name="homepage-product-slider" template="Hyva_Productslider::product/slider/product-slider-home.phtml" ifconfig="zealous_ecommerce_homepage/slider/enabled"/>
+        </referenceContainer>
+    </body>
+</page>
