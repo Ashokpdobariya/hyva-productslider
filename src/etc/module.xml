@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--
+/**
+* samumaretya / productSlider
+* samumaretiya@gmail.com
+* skype : samumaretiya
+ * Copyright © Zealous Commerce. All rights reserved.
+ * This product is licensed per Magento install
+ */
+
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Hyva_Productslider">
+        <sequence>
+            <module name="Hyva_ThemeFallback"/>
+        </sequence>
+    </module>
+</config>

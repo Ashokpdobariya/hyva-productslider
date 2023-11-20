@@ -1,0 +1,23 @@
+{
+  "name": "hyva-themes/magento2-productslider",
+  "description": "productslider for Hyvä Themes",
+  "type": "magento2-module",
+  "require": {
+    "hyva-themes/magento2-theme-fallback": "*",
+    "magento/framework": "*"
+   
+  },
+  "authors": [{
+      "name": "zealousecommerce",
+      "email": "info@zealouscommerce.com"
+  }],
+  "license": "see LICENSE.md",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Hyva\\Productslider\\": "src/"
+    }
+  }
+}

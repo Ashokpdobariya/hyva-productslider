@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--
+/**
+* samumaretya / productSlider
+* samumaretiya@gmail.com
+* skype : samumaretiya
+ * Copyright © Zealous Commerce. All rights reserved.
+ * This product is licensed per Magento install
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <hyva_theme_fallback>
+            <general>
+                <enable>1</enable>
+                <theme_full_path>frontend/Magento/luma</theme_full_path>
+                <list_part_of_url>
+                    <![CDATA[{"_1612520818489_489":{"path":"checkout\/index"},"_1612520843057_57":{"path":"paypal\/express\/review"},"_1612776810949_949":{"path":"paypal\/express\/saveShippingMethod"},"_1645247921478_478":{"path":"paypal\/transparent\/redirect"},"_1645249412397_397":{"path":"paypal\/transparent\/response"}}]]></list_part_of_url>
+            </general>
+        </hyva_theme_fallback>
+    </default>
+</config>
