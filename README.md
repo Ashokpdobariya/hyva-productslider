@@ -1,0 +1,1 @@
+# hyva-productslider
