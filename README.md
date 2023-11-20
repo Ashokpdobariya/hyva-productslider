@@ -3,7 +3,7 @@ productslider in homepage  for Hyvä Themes
 
 ## What does it do?
 
-It allows to use the standard qty another theme path for checkout when using the Hyva Theme
+It allows to use porduct slider in homepage through backend-configuration when using the Hyva Theme
  
 ## Installation
   
