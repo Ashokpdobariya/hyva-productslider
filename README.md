@@ -52,7 +52,10 @@ The full paths that need to be migrated are:
 3. ```HYVA THEMES->Theme Fallback->General Settings->The list of URL's parts```
    
    The configuration path is `hyva_theme_fallback/general/list_part_of_url`
-
+4. ```Backend configureation```
+   
+   The configuration path is `store/consfiguration/zealousecommerce/homepge`
+   set the sku  in product-sku tab just like `24-MB01,24-MB02,24-MB04`
 ## How does it work?
 
 This module depends on `hyva-themes/magento2-theme-fallback` and only supplies the configuration. 
