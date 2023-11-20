@@ -54,7 +54,7 @@ The full paths that need to be migrated are:
    The configuration path is `hyva_theme_fallback/general/list_part_of_url`
 4. ```Slider Configuration```
    
-   The configuration path is `store/consfiguration/zealousecommerce/homepge`
+   The configuration path is `store/Configuration/zealousecommerce/homepge`
    <br>
    Enable Slider to `Yes`
    <br>
