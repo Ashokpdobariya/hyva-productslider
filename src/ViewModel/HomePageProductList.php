@@ -33,7 +33,7 @@ class HomePageProductList implements ArgumentInterface
         $collection = $this->productCollectionFactory->create();
         $collection->addFieldToSelect('*');
         $collection->addAttributeToFilter('sku', ['in' => $skuList]);
-        $collection->addAttributeToFilter('website_id', $this->storeViewModel->getWebsiteId());
+        // $collection->addAttributeToFilter('website_id', $this->storeViewModel->getWebsiteId());
         $collection->addAttributeToFilter('visibility', [
             ProductVisibility::VISIBILITY_IN_CATALOG,
             ProductVisibility::VISIBILITY_BOTH,

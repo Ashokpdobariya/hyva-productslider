@@ -12,7 +12,7 @@
     <update handle="hyva_product_slider" />
     <body>
         <referenceContainer name="content">
-            <block name="homepage-product-slider" template="Hyva_Productslider::product/slider/product-slider-home.phtml" ifconfig="zealous_ecommerce_homepage/slider/enabled"/>
+            <block name="homepage-product-slider" after = "-" template="Hyva_Productslider::product/slider/product-slider-home.phtml" ifconfig="zealous_ecommerce_homepage/slider/enabled"/>
         </referenceContainer>
     </body>
 </page>
