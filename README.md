@@ -32,8 +32,7 @@ Should the configuration settings be locked in `app/etc/config.php`, you have to
 section `hyva_productslider` manually to the path `hyva_theme_fallback`.  
 The full paths that need to be migrated are:
 ```
-'hyva_luma_checkout/general/enable'          => 'hyva_theme_fallback/general/enable'
-'hyva_luma_checkout/general/theme_full_path' => 'hyva_theme_fallback/general/theme_full_path'
+
 ```
 
 
